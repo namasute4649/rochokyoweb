@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule jidosha$ https://rchky.org/rsc/index.php?r=survey/index&sid=921199&lang=ja&newtest=Y&A000=2 [R=301,L]

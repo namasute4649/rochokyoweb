@@ -1,0 +1,217 @@
+@charset "shift_jis";
+
+/* ---------------------------------------------------------------
+ * Style Sheet for Rengo Anzen-Eisei Tyousa
+ * Written by YUASA Ron
+ * Last modified 2005-02-20
+ * original http://www.rochokyo.gr.jp/css/anei.css
+ * --------------------------------------------------------------*/
+
+body{
+  margin: 3%;
+/*  background-color:#dff; */ /* 背景色 第7回*/
+/*  background-color:#ffc; */ /* 背景色 第8回*/
+/*  background-color:#cfc; */ /* 背景色 第9回*/
+  background-color:#dff; /* 背景色 2017*/
+}
+
+/*--- 見出し ---*/
+h1{
+  text-align: center;
+  font-size: 180%;
+}
+h2{
+  font-size: 130%;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+/*--- 段落 ---*/
+p{
+  text-indent: 1em;
+  line-height: 1.5em;
+  margin: 0.5em 0;
+}
+p.entrance{ /* 入口 */
+  text-indent: 0;
+  text-align:center;
+  width: 10em;
+  margin: 1em auto;
+  font-size: 200%;
+  border: 5px #360 solid;
+}
+p.entrance a:link{ /* リンクの形状：未訪問 */
+  text-decoration: underline;
+  color: blue; 
+}
+p.entrance a:visited{ /* リンクの形状：訪問済 */
+  text-decoration: underline;
+  color: purple; 
+}
+p.entrance a:hover{ /* リンクの形状：カーソルが乗った時 */
+  text-decoration: none;
+  color: white; 
+  background-color: #360;
+}
+p.sample{ /* ＜例＞ */
+  text-indent: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+p.description{ /* 記入上の注意の説明文 */
+  text-indent: 0;
+  margin-top: 0.2em;
+}
+p.description2{
+  text-indent: -1em;
+  margin-left:1em;
+}
+p.qt{ /* ＜例＞の設問タイトル */
+/*  background-color:#efffff; */
+/*  background-color:#eef6ff; */ /* 第8回 */
+/*  background-color:#efffee;*/
+/*  width: 40em; */
+/*  margin-left: 4em; */
+  margin-left: 1em; 
+/*  text-indent: -3em; */
+  text-indent: 0; 
+/*  margin-top: 0.5em; */
+}
+p.no{
+  font-weight:bold;
+  font-size:1.3em
+}
+p.fa{
+  color: #B9CC14;
+  font-weight: bold;
+  font-size:90%;
+	margin-left:20%;
+	margin-bottom:1em;
+}
+p.fa2{
+	margin-left:10%;
+}
+.fa-exclamation-circle{
+	margin-left:20%;
+}
+/* 注 */
+sup{
+  vertical-align:40%;
+  font-size:75%;
+}
+sup a:link{color:red;text-decoration:none;}
+sup a:visited{color:orange;text-decoration:none;}
+sup a:hover{color:red;text-decoration:none;}
+sup a:action{color:orange;text-decoration:none;}
+p#NOTE{
+  margin-left:4em;
+  text-indent: -2em;
+  font-size:90%;
+}
+/*--- リスト ---*/
+ol li{
+  line-height: 1.5em;
+  margin: 0.5em 0;
+}
+ol.caution{ /* インターネット調査に関する注意 */
+  margin-top: 0;
+}
+ol.caution li{
+  line-height: 1.5em;
+/*  margin-top: 2em;*/
+}
+ol.dec{ /* 調査票への記入上の注意<1,2,…> */
+  list-style-type:upper-alpha;
+  margin-left: 1em;
+  padding-left: 0;
+}
+ol.dec li{
+  line-height: 1.5em;
+  margin-top: 2em;
+}
+
+ol.col{  /* 調査票への記入上の注意囲み */
+  list-style-type: upper-alpha;
+  width: 32em;
+  border: 2px solid;
+  padding: 0.5em 1em 0.5em 2.5em;
+  margin-left: 0;
+  padding-left: 2em;
+}
+ol.col li{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol.ua{ /* 調査票への記入上の注意<A,B,…> */
+/*  list-style-type: upper-alpha; */
+}
+ol.ua li#pre{
+  list-style-type: none;
+}
+ol.ua li#pre p#prepre{
+  text-indent:-0.5em;
+}
+
+ol.lr{ /* 調査票への記入上の注意<i,ii,…> */
+  list-style-type: lower-roman;
+  margin-left: 1em;
+  padding-left: 0;
+}
+ol.lr li{
+  line-height: 1.5em;
+  margin: 0.5em 0;
+}
+
+/*--- ボタン ---*/
+input.researchbutton{
+	color:#fff;
+/*	width:3.2em;*/
+	height:2.5em;
+	border-radius: 6px;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: 1.1em;
+  margin:0 0.3em;
+}
+input.next{
+	background-color:#dd4814;
+}
+input.previous{
+	background-color:#aea79f;
+}
+input.radio{
+
+}
+
+/*--- textarea ---*/
+input.text{
+	width:90%;
+	height:2em;
+}
+input.text2{
+	height:6em;
+}
+/*--- その他 ---*/
+div.sample{ /* ＜例＞の下の囲み */
+  margin-right: 2em;
+  margin-bottom: 2em;
+  padding-top: 0.4em;
+  background-color: #fff;
+  border: 2px solid;
+}
+span.smaller{ /*  */
+  font-size: 80%;
+}
+span.note{ /* 設問注釈 */
+  font-size: 90%;
+  color: #f00;
+}
+span.highlight{
+	color:red;
+	font-size:120%;
+}
+span.qsup{ /*  */
+  font-size: 80%;
+  font-weight: normal;
+}

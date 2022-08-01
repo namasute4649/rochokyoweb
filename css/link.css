@@ -1,0 +1,57 @@
+p{
+  text-indent: 0;
+}
+h2{
+  font:  bold 1.2em/1.2em sans-serif;
+  margin: 0.6em 0.3em 0.3em;
+  padding: 0;
+  color: #360;
+  border-bottom: 8px #360 solid;
+}
+div#left{
+  float: left;
+  width: 32%;
+  margin: 2% 2% 2% 0;
+  padding-bottom: 2%;
+  background-color: #ddd;
+}
+div#center{
+  float: left;
+  width: 32%;
+  margin: 2% 2% 2% 0;
+  padding-bottom: 2%;
+  background-color: #ddd;
+}
+div#right{
+  float: left;
+  width: 30%;
+  margin: 2% 0 2% 0;
+  padding-bottom: 2%;
+  background-color: #ddd;
+}
+ul.mark3{	/* 番号なしリスト・マークあり3 */
+  color: #360;
+  margin: 0;
+  padding-left: 1.5em;
+  list-style: square;	/* 四角 */
+}
+ul.mark3 li{
+  margin: 0;
+}
+ul.mark4{	/* 番号なしリスト・マークあり4 */
+  font-size: 0.9em;
+  color: #000;
+  margin: 0;
+  padding-left: 1em;
+  list-style: disc;	/* 黒丸 */
+}
+ul.mark4 li{
+  margin: 0;
+}
+ul a:link{text-decoration: none}
+ul a:visited{text-decoration: none}
+ul a:hover{
+  text-decoration: none;
+  color: white; 
+  background-color: #66f;
+}

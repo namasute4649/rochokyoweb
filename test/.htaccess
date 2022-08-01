@@ -1,0 +1,5 @@
+AuthUserFile /usr/home/mw2pazzgdn/www/htdocs/test/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input ID and Password."
+AuthType Basic
+require valid-user

@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /limesurvey*/
+Disallow: /test/
+Disallow: /nc/
+Disallow: /onethird/
+Disallow: /piwik/
+Disallow: /jichiro/
+Sitemap: https://www.rochokyo.gr.jp/sitemap.xml

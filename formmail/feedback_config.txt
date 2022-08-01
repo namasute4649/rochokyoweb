@@ -1,0 +1,5 @@
+$MAIL_TO = 'yuasa@rochokyo.gr.jp';
+$MAIL_SUBJECT = 'FormMail『労働調査』への意見、感想';
+$CONFIRM_PAGE = '/formmail/feedback_check.html';
+$FORMERR_PAGE = '/formmail/feedback_error.html';
+$THANKS_PAGE = '/formmail/feedback_thanks.html';

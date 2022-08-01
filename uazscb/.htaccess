@@ -1,0 +1,33 @@
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+RewriteEngine on
+RewriteRule ^1seven$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO01 [R=301,L]
+RewriteRule ^2jolly$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO02 [R=301,L]
+RewriteRule ^3aleph$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO03 [R=301,L]
+RewriteRule ^4genki$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO04 [R=301,L]
+RewriteRule ^5skylark$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO05 [R=301,L]
+RewriteRule ^6saizeriya$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO06 [R=301,L]
+RewriteRule ^7cocos$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO07 [R=301,L]
+RewriteRule ^8teng$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO08 [R=301,L]
+RewriteRule ^9bigboy$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO09 [R=301,L]
+RewriteRule ^10arcm$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO10 [R=301,L]
+RewriteRule ^11monte$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO11 [R=301,L]
+RewriteRule ^12royal$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO12 [R=301,L]
+RewriteRule ^13totenko$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO13 [R=301,L]
+RewriteRule ^14ringerhut$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO14 [R=301,L]
+RewriteRule ^15bv$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO15 [R=301,L]
+RewriteRule ^16watami$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO16 [R=301,L]
+RewriteRule ^17colowide$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO17 [R=301,L]
+RewriteRule ^18arcl$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO18 [R=301,L]
+RewriteRule ^19ganko$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO19 [R=301,L]
+RewriteRule ^20marche$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO20 [R=301,L]
+RewriteRule ^21toridoll$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO21 [R=301,L]
+RewriteRule ^22joyful$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO22 [R=301,L]
+RewriteRule ^23sagami$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO23 [R=301,L]
+RewriteRule ^24sugakiko$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO24 [R=301,L]
+RewriteRule ^25gyoza$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO25 [R=301,L]
+RewriteRule ^26srs$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO26 [R=301,L]
+RewriteRule ^27hiday$ https://rchky.org/rse/index.php?r=survey/index&sid=519915&lang=ja&newtest=Y&F07=AO27 [R=301,L]

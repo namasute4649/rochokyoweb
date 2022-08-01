@@ -1,0 +1,12 @@
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+RewriteEngine on
+RewriteRule ^east$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=1 [R=301,L]
+RewriteRule ^west$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=2 [R=301,L]
+RewriteRule ^coms$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=3 [R=301,L]
+RewriteRule ^data$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=4 [R=301,L]
+RewriteRule ^docomo$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=5 [R=301,L]
+RewriteRule ^hldg$ https://rchky.org/rse/index.php?r=survey/index&sid=199875&lang=ja&newtest=Y&Q23D=6 [R=301,L]

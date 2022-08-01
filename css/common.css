@@ -1,0 +1,293 @@
+﻿@charset "utf-8";
+
+/* ---------------------------------------------------------------
+ * Common Style Sheet for Rouchokyo Web
+ * Written by YUASA Ron
+ * Last modified 2006-03-28
+ * original http://www.rochokyo.gr.jp/css/common.css
+ * --------------------------------------------------------------*/
+
+body{
+	margin: 0;
+	background-color:#669;
+/* font-family: sans-serif; */
+}
+
+/* -----------------------------------------------
+ * ヘッダ部分
+ * ----------------------------------------------- */
+
+/* --- ヘッダ部のナビゲーション --- */
+
+div.navi{
+	font-size : 11px;
+	font-family: sans-serif;
+	color: #669;
+	background-color: #f0f8ff;
+	border: none;
+	padding : 0;
+}
+div.navi img{	/* ロゴ */
+	 border: none; 
+	 padding: 8px 8px 0;
+}
+span#nav{	/* リンク文字列 */
+	border-bottom: 15px #669 solid;
+	vertical-align: 24px;
+	padding: 0 8px 3px 3px;
+}
+
+/* --- リンク形状 --- */
+div.navi span#nav a:link{
+	color: #669; 
+	text-decoration: none;
+}
+div.navi span#nav a:visited{
+	color: #669; 
+	text-decoration: none;
+}
+div.navi span#nav a:hover{
+	color: #f40; 
+	background-color: #ff9;
+	position: relative; top: 1px; left: 2px;
+}
+/* ～～ リンク形状、ここまで ～～ */
+
+div.navi span#current{	/* 現在ページ */
+	color: #c60;
+	font-weight: bold;
+}
+/* ～～ ナビゲーション、ここまで ～～ */
+
+#location{	/* 現在位置表示 */
+	font-size : 68%;
+	margin: 0 0 0 85px;
+}
+#location a:link{text-decoration: underline}
+#location a:visited{text-decoration: underline}
+#location a:hover{
+	text-decoration: underline;
+	color: white;
+	background-color: #66f;
+}
+
+/* -----------------------------------------------
+ * コンテンツ
+ * ----------------------------------------------- */
+
+div.contents{	/* コンテンツ領域 */
+	background-color:#f0f8ff;
+	padding: 1px 7% 3%; 
+}
+div.container{ /* IE6のバグ対策 */
+	width: 100%;
+}
+
+/* --- 見出し --- */
+h1{
+	font: italic bold 1.8em sans-serif;
+	color: #030;
+	margin: 0.7em 0 0 0;
+	padding: 0 0 0 0.5em;
+	border-left: 1em #fc3 solid;
+	border-bottom: 2px #fc3 solid;
+}
+h2{
+	font: bold 1.2em/1.2em sans-serif;
+	margin: 1.4em 0 0.6em;
+	padding: 0 0 0 1em;
+	color: #360;
+	border-bottom: 8px #360 solid;
+}
+h3{
+	font: 1em/1em sans-serif;
+	padding: 0 0.5em;
+	border-left: 1em #030 solid;
+	margin-bottom: 0.4em;
+	color: #030;
+}
+/* ～～ 見出し、ここまで ～～ */
+
+p{
+	text-indent: 1em;
+	line-height: 1.5em;
+	margin: 0.6em 0;
+}
+/* --- リスト --- */
+ol{	/* 番号ありリスト for itakuchosa.html */
+	list-style-type:decimal;
+}
+ol li{
+	color: #360;
+	margin-top: 0.5em;
+}
+ol p{
+	text-indent: 0;
+	margin: 0;
+	font-size: 0.9em;
+	color: black;
+}
+ul{	/* 番号なしリスト */
+	list-style: circle;	/* 白丸 */
+	font: 1em/1.3em sans-serif;
+}
+ul li{
+	margin-top: 1em;
+	line-height:1.5em;
+}
+ul.mark1 li{	/* 番号なしリスト・マークあり1 for jigyou.html */
+	margin-top: 1em;
+}
+ul.mark2{	/* 番号なしリスト・マークあり2 for kyoudou.html */
+	margin-top: 0.2em;
+	position: relative; left: -1em;
+	list-style: square;	/* 黒四角 */
+}
+ul.mark2 li{	/* for kyoudou.html */
+	margin: 0;
+}
+ul.nomark1{	/* 番号なしリスト・マークなし1 for about.html */
+	margin-top: 2em;
+	font-family: monospace;
+	list-style: none;
+	text-indent: -1em;
+}
+ul.nomark1 li{	/* for about.html */
+	margin-top: 0.3em;
+}
+ul.nomark2{	/* 番号なしリスト・マークなし for kyoudou.html */
+	margin-top:0.5em;
+	text-indent: -1em;
+	list-style: none;
+}
+ul.sample{
+	list-style: square;	/* 黒四角 */
+	font-size: 0.8em;
+	line-height: 0.8em;
+	margin: -0.6em 0 0 2.5em;
+	padding: 0;
+}
+ul.sample li{
+	margin: 0;
+	padding: 0;
+/*	line-height: 1em;*/
+}
+/* --- ジャンプ（トップに戻る） --- */
+.jump{
+	font-size: 0.8em;
+	text-align : right;
+	margin: 0;
+	padding: 0;
+}
+.jump a:link	{color: #a9a9a9; text-decoration: none}
+.jump a:visited	{color: #a9a9a9; text-decoration: none}
+.jump a:hover	{color: white; background-color: #b8860b}
+
+/*** セミナー ***/
+div.photo1{		 /* セミナー写真 for semi0?.html */
+	float: left;
+	margin-right: 1.5em;
+	margin-left: 1em;
+	margin-bottom: 1.5em;
+}
+div.photo2{	 /* セミナー写真 for semi0?.html */
+	float: right;
+	margin-left: 1.5em;
+	margin-right: 1em;
+}
+div.photo1 img,div.photo2 img{
+	border: #360 2px solid;
+	width: 300px;
+	height: 225px;
+}
+div.photo10 img{
+	width: 200px;
+	height: 150px;
+}
+
+.smaller{
+	font-size: smaller;
+}
+.western{
+	font-family: verdana, sans-serif;
+}
+/* 本の価格 */
+span.price{
+	color: red;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+/* -----------------------------------------------
+ * フッタ部
+ * ----------------------------------------------- */
+
+div.footer{
+/*	font-family: sans-serif;*/
+	font-size : 11px;
+/*	font-size : 0.7em;*/
+	color : white;
+	padding: 10px 8px;
+	clear: both;
+}
+
+/* --- リンク形状 --- */
+div.footer a:link{
+	text-decoration: underline;
+	color: white; 
+}
+div.footer a:visited{
+	text-decoration: underline;
+	color: purple; 
+}
+div.footer a:hover{
+	text-decoration: none;
+	color: #f40; 
+	background-color: #ff9;
+/*	position: relative; top: 1px; left: 2px;*/
+}
+/* ～～ リンク形状、ここまで ～～ */
+
+div.footer span.current{	/* 現在ページ */
+	color : #c60;
+}
+
+
+/* -----------------------------------------------
+ * メールアドレス（index.html, syozai.html)
+ * ----------------------------------------------- */
+#mailaddress a:link{
+/*	text-decoration: none;
+ color: white; */
+}
+#mailaddress a:visited{
+/*	text-decoration: none;
+	color: white; */
+}
+#mailaddress a:hover{
+	color: white; 
+	background-color: #339
+}
+
+abbr{
+	cursor:help;
+	border-bottom:1px dotted black;
+}
+q {
+	background-color:#fcf;
+}
+
+q:before {
+	content:"「";
+}
+
+q:after {
+	content:"」";
+}
+/*q:before {
+	content:"";
+}
+
+q:after {
+	content:"";
+}*/

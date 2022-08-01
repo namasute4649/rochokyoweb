@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^*$ https://rchky.org/rsd/index.php?r=survey/index&sid=773849&lang=ja&newtest=Y&A00=40 [R=301,L]

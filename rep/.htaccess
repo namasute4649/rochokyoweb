@@ -1,0 +1,6 @@
+## begin basic auth
+AuthName "the protected directory"
+AuthType Basic
+AuthUserFile "/usr/home/mw2pazzgdn/www/htdocs/rep/.htpasswd"
+Require valid-user
+## end basic auth

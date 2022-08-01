@@ -1,0 +1,149 @@
+/* ---------------------------------------------------------------
+ * Style Sheet for the Top Page of Rouchokyo Web
+ * Written by YUASA Ron
+ * Last modified 2004-04-27
+ * original http://www.rochokyo.gr.jp/css/top.css
+ * --------------------------------------------------------------*/
+
+body{
+  margin: 0;
+  background-color:#669;
+}
+
+/* -----------------------------------------------
+ * ヘッダ部分
+ * ----------------------------------------------- */
+
+div.navi{	/* ヘッダ部のナビゲーション */
+  font : 11px sans-serif;
+  color: #669;
+  background-color: #f0f8ff;
+  border: none;
+  padding : 0;
+}
+div.navi img{	/* ロゴ */
+  padding: 8px 8px 0;
+}
+span#nav{	/* ナビゲーションのリンク */
+  border-bottom: 15px #669 solid;
+  vertical-align: 28px;
+  padding: 0 8px 8px 3px;
+}
+
+/* -----------------------------------------------
+ * コンテンツ
+ * ----------------------------------------------- */
+
+div.contents{	/* コンテンツ領域 */
+  background-color:#f0f8ff;
+  padding: 18px 7% 0; 
+  clear: both;
+}
+
+/* --- 見出し --- */
+h2,h3{
+  font:  1em/1em sans-serif;
+}
+h1{
+  font: bold 34px/50px sans-serif;
+  color: #339;
+  background: url(../images/grad2.png) repeat;
+  text-align: center;
+  margin-top: 15px;
+  padding: 0;
+  border: none;
+}
+h1 em{
+  font: italic  60% serif;
+  color: #030;
+} 
+h2{
+  font:  italic 1.2em/2em sans-serif;
+  padding: 0 1em;
+  color: ;
+  border-left: 2em #fc3 solid;
+  border-bottom: 2px #fc3 solid;
+}
+#index h2{
+  margin-right: 1em;
+}
+h3{
+  margin-left: 1.3em;
+  padding: 0 0.5em 0 0.5em;
+  border-left: 1em #030 solid;
+}
+h3 a:link{
+  text-decoration: underline;
+}
+h3 a:link{
+  text-decoration: underline;
+}
+h3 a:hover{
+  color: #fc3; 
+/*  background-color: #99f; */
+  background-color: #66f;
+  text-decoration: none;
+/*  position: relative; top: 3px; left: 3px;*/
+}
+/* ～～ 見出し、ここまで ～～ */
+
+#catch{
+  margin: 5% 5% 4%;
+  font-size: 1.3em;
+  color: #36f;
+  color: #030;
+  text-align: center;
+  border-bottom: 2px #36f groove;
+}
+
+#index{
+  margin: 0 5% 0 0;
+  padding: 0;
+  width: 44%;
+  border: outset thin #fefef9;
+  background-color: #f6f6f6;
+  float: left;
+}
+#article{
+  width: 48%;
+  float: left;
+}
+ul{	/* リスト */
+  font: 1em sans-serif;
+  list-style: disc;
+  text-indent: 0;
+/*  position: relative; left: -3%;*/
+}
+/* -----------------------------------------------
+ * フッタ部
+ * ----------------------------------------------- */
+
+div.counter{
+  text-align: right; 
+  clear: both;
+  position: relative; right: -1em;
+}
+
+div.date{
+  text-align : right;
+  font-style : italic;
+  color : white;
+  padding-right: 1em;
+  font-size : 13px;
+}
+div.footer{
+  text-align:center;
+  font-size : 13px;
+  color : white;
+  padding: 10px 0;
+  clear: both;
+}
+#maiaddress{
+  vertical-align: -2px;
+}
+#maiaddress a:hover{
+  color: white; 
+  background-color: #669;
+  position: relative; top: 0; left: 0;
+  }
+

@@ -1,0 +1,418 @@
+﻿@charset "utf-8";
+
+/* ---------------------------------------------------------------
+ * Style Sheet for "Roudouchosa" backnumber pages in Rouchokyo Web
+ * Last modified 2004-07-05
+ * original http://www.rochokyo.gr.jp/css/bn.css
+ * --------------------------------------------------------------*/
+
+/* -----------------------------------------------
+ * Navigation
+ * ----------------------------------------------- */
+
+ul#month{
+  margin: 4% 0 0;
+}
+ul#month li{
+  display: inline;
+/*  margin-top: 35px;*/
+  font-size: 0.7em;
+  margin: 0 0.4em;
+}
+#month a:link	{color: #00f; text-decoration: underline}
+#month a:visited	{color: #00f; text-decoration: underline}
+#month a:hover	{color: #fff; background-color: olive}
+/*span.bottom{vertical-align : -2em}*/
+
+/* -----------------------------------------------
+ * Headings / List
+ * ----------------------------------------------- */
+
+h4, h5, ol li{
+  margin-left: 2.2em;
+}
+h1{			/* 年 */
+  margin: 15px 0.5em 0 0;
+  padding: 0 0 0;
+  float : left;
+  border: none;
+}
+h2{			/* ～月号 */
+  font-size : 140%;
+  color : navy;
+  margin : 2% 0 1%;
+  font-weight : normal;
+  border-style:solid;
+  border-color:#b8860b;
+  border-width: 0px 0px 6px 0px;
+  clear : both;
+}
+h3{
+  font : bold 1.2em/1.8em sans-serif;
+  color : #007900;
+  background-color: #cf9;
+  margin : 1em 1em 0.5em 1.5em;
+  padding-left : 1em;
+  max-width : 38em;
+  border-left: 1em #360 solid;
+}
+h4{
+  font-weight : normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h4 a:link,h5.sub4 a:link{text-decoration:none}
+h4 a:visited.sub4 a:link{text-decoration:none}
+h4 a:hover.sub4 a:link{text-decoration:underline}
+h4 a:active.sub4 a:link{text-decoration:none}
+
+/* 2008年6月号UL調査報告 */
+h4.ulupperheader{
+	font-weight:bold;
+	font-size:110%;
+	margin:0.5em 0 0.5em 2em;
+}
+h4.ulsection{
+	margin-top:0.4em;
+	margin-bottom:0.4em;
+}
+h4.ulchapter{
+	margin:0.2em 0 0.2em 3.5em;
+}
+h4 span.enclosed{
+	border:black solid 1px;
+	padding: 0 0.2em;
+}
+
+/* ↑↑↑↑↑↑ */
+
+/* 2010年8月号共同調査報告 */
+h3.corsc{
+	line-height:1em;
+	padding-top:0.3em;
+	padding-bottom:0.5em;
+	margin-bottom:0.2em;
+}
+h4.ulupperheader2{
+	margin-top:0.2em;
+}
+h4.ulsection{
+	margin-top:0.4em;
+	margin-bottom:0.4em;
+}
+h4.ulchapter{
+	margin:0.2em 0 0.2em 3.5em;
+}
+h4 span.enclosed{
+	border:black solid 1px;
+	padding: 0 0.2em;
+}
+
+h4.corechap{
+	margin:0.2em 0 0.1em 3em;
+}
+h5.coreauth{
+	margin-left:12em;
+}
+h5.corechapsub{
+	margin-bottom:0.1em;
+}
+/* ↑↑↑↑↑↑ */
+
+li h4{
+  margin-left: 0;
+}
+h5{
+  font-weight : normal;
+  margin: 0.1em 0 0.6em 8em;
+  font-size : 90%;
+}
+ol{
+  color: black;
+  margin-top : 1%;
+}
+ol li{
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+ol.roman{
+  list-style-type: upper-roman
+}
+ol.roman ol li{
+ margin-left: -1em;
+}
+ol li.sp{	/* 番号なし */
+	border-top: 1px dashed;
+	margin-top:1em;
+	margin-left:0;
+	max-width: 45em;
+	padding-top:0.8em;
+	padding-left:1.5em;
+	list-style: none;
+}
+ol li.nonum{
+	list-style: none;
+	
+}
+ul.nomark3{	/* 番号なしリスト・マークなし3 */
+  margin-top: 1%;
+  list-style: none;
+}
+ul.nomark3 li{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+ul#authors{
+	margin:0;
+	padding:0;
+	list-style-type: circle;
+	margin-top:0;
+	margin-left:1.5em;
+}
+ul#authors li{
+	margin:0;
+	padding:0;
+	margin-left:2.5em;
+}
+p{
+  text-indent: 0;
+}
+/* ------------------------------------------------
+ * Class / Id selectors for ordinary element types 
+ * ------------------------------------------------ */
+ol.compact{
+  margin-top: 0;
+  font-size: 0.9em;
+}
+h3.kk,h4#kk{
+  font-size : 100%;
+  font-weight : normal;
+  margin-top : 0.7em;
+  margin-bottom : 0.2em;
+  color : #360;
+  line-height : 100%;
+  margin-left : 1.5em;
+  padding-left : 0;
+  background-color: transparent;
+  border: none;
+}
+h3 span.small{
+  font-size : 0.7em;
+  font-weight : normal;
+  letter-spacing: -1px;
+}
+h3 span.med{
+  font-size : 0.85em;
+  font-weight : normal;
+  letter-spacing: -1px;
+}
+.sub{
+/*  font-size : 0.9em;*/
+  font-weight : normal;
+  margin-bottom: 0;
+  margin-left : 4em;
+}
+h5.sub2{
+  margin-left : 4em;
+}
+h5.sub3{
+  margin-top : 0;
+}
+h5.sub_multi{
+  margin-bottom : 0;
+}
+h3#rf{
+  margin-top : 1em;
+}
+div#year{
+  font-size: 68%;
+  word-spacing: 11px;
+  margin: 0.5em 0 0 85px;
+}
+div#year2{
+  font-size: 68%;
+  word-spacing: 11px;
+  margin: 0;
+  padding-top: 3%;
+  border-top: 6px #669 solid;
+}
+div#year a:link,div#year2 a:link      {text-decoration: underline}
+div#year a:visited,div#year2 a:visited   {text-decoration: underline}
+div#year a:hover,div#year2 a:hover{
+  color: white; 
+  background-color: #66f;
+  text-decoration: none;
+}
+.small{
+  font-size: 80%;
+}
+h4 span.small{ /* [PDF: ～KB] */
+  margin-left: 0.5em;
+}
+h4 span.inlinesub{	/* タイトルと同じ行の副題 */
+	font-size: 85%;
+}
+/* 2009年6月号 */
+ol li h5.down{
+  font-weight : normal;
+  margin: 0.5em 0 0 1em;
+  font-size:100%;
+}
+ol li h6.down{
+  font-weight : normal;
+  margin: 0 0 0 8em;
+  font-size : 90%;
+}
+/* ここまで */
+
+/* 2011年10月号：IEのバグ？でリスト番号が正しく振られないのに対処 */
+ol.notorderd{
+	list-style-type:none;
+}
+ol.notorderd li{
+	margin-left:0.2em;
+}
+ol.notorderd li ul.sanbetu{
+	margin-left:2.2em;
+}
+/* ここまで */
+
+
+
+/*
+h4 div.continued{ /* 強制改行後の継続行 
+  text-indent: 1em;
+}
+*/
+
+/* ========= PDF/Xls ========= */
+/*	旧バージョンは:afterで画像とtitle要素の中身（ファイル種別と容量）を追加 */
+/*
+*h4 a[title]:after{
+*  padding-left: 0.2em;
+*  font-size: 80%;
+*  content: url(../images/pdf.gif) " [" attr(title) "]";
+*  color: black;
+*}
+*h4 span.xls a[title]:after{
+*  padding-left: 2em;
+*  font-size: 200%;
+*  content: url(../images/xls.gif) " [" attr(title) "]";
+*  color: black;
+*}
+*a.pdf :after{
+*  padding-left: 0.2em;
+*  font-size: 80%;
+*  content: url(../images/pdf.gif) " [" attr(title) "]";
+*  color: black;
+*}
+*/
+h4 span.xls{
+	margin-left:0.5em;
+	font-size:80%;
+}
+/* pdfかxlsをファイル名の拡張子で判断 */
+/* 新バージョンは背景画像で画像のみ追加（IEはJavaScriptで対処） */
+/*                                             ↓               */
+/* 新バージョンは背景画像で画像のみ追加（121116 JavaScriptは廃止） */
+a[href$='.xls'] {
+	padding: 5px 20px 5px 0;
+	margin-right:5px;
+	background: transparent url(../images/xls.gif) no-repeat center right;
+}
+a[href$='.pdf'] {
+	padding: 5px 20px 5px 0;
+	margin-right:5px;
+	background: transparent url(../images/pdf.gif) no-repeat center right;
+}
+/* =========================== */
+
+ul.suboped{		/* 特集内のリスト */
+	padding: 0;
+	list-style-type: square;
+}
+ul.suboped li{
+	margin: 0.5em 0 0.5em 1em;
+	padding: 0;
+	line-height: 1em;
+}
+ul.suboped li h5{
+	margin: 0 0 0.1em;
+	padding: 0;
+}
+ul.suboped li h6{
+	margin: 0 0 0 4em;
+	padding: 0;
+	font-weight : normal;
+	font-size : 75%;
+}
+p.pprr{
+	margin:0;
+	padding:0;
+	margin:0 0 0 2.5em;
+	font-size:85%;
+}
+p.pprr2{
+	margin-top:1em;
+}
+h4.pprr{
+	line-height:1.3em;
+}
+h5.pprr{
+	margin-left:12em;
+}
+p.pprr+ol{
+	margin-top:0;
+}
+
+/* 2011年10月号 */
+ul.sanbetu{
+	margin:0 0 1em 0;
+	padding:0;
+	list-style-type: square;
+}
+ul.sanbetu li span.author{
+	font-size:90%;
+}
+
+/* 2014年2月号 */
+ol.bn1402{
+	padding-left:0.5em;
+	list-style-type:lower-roman;
+}
+ol.bn1402 h5{
+	margin-left:9em;
+}
+
+/* 2017年3月号 */
+h5.law{
+	margin-left:5em;
+	margin-bottom:0;
+	line-height:1.2em;
+}
+
+/* -----------------------------------------------
+ * Table
+ * ----------------------------------------------- */
+
+table{margin: 0 1em 1.5em 2em}
+td h4{
+  max-width: 10em;
+  margin : 0.5em 0 0 0em;
+}
+td h5{
+  margin : 0.5em 0 0 1em;
+}
+td h5.small{
+  font-size : 90%;
+}
+td mid{
+  font-size : 90%;
+}
+td small{
+  font-size : 90%;
+}
+

@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule wage.html$ https://labour-research.org/limesurvey2/index.php/758758?lang=ja [R=301,L]
+RewriteRule nara.html$ https://labour-research.org/limesurvey2/index.php/948745 [R=301,L]

@@ -1,0 +1,290 @@
+﻿@charset "utf-8";
+
+/* ---------------------------------------------------------------
+ * Style Sheet for the Top Page of Rouchokyo Web
+ * Written by YUASA Ron
+ * Last modified 2004-07-05
+ * original http://www.rochokyo.gr.jp/css/top.css
+ * --------------------------------------------------------------*/
+
+/* -----------------------------------------------
+ * コンテンツ
+ * ----------------------------------------------- */
+
+div.contents {
+  /* コンテンツ領域 */
+  padding: 18px 7% 0;
+}
+
+/* --- 見出し --- */
+h1 {
+  font: bold 34px/50px sans-serif;
+  color: #339;
+  background: url(../images/grad2.png) repeat;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0;
+  border: none;
+}
+
+h1 em {
+  font: italic 60% serif;
+  color: #030;
+}
+
+h2 {
+  font: italic 1.2em/2em sans-serif;
+  margin: 0 0 1.3em;
+  padding: 0 1em;
+  color: #030;
+  border-left: 2em #fc3 solid;
+  border-bottom: 2px #fc3 solid;
+}
+
+#index h2 {
+  margin-right: 1em;
+}
+
+h3 {
+  margin-left: 1.3em;
+}
+
+/* --- indexのリンク形状 --- */
+h3 a:link {
+  text-decoration: underline
+}
+
+h3 a:visited {
+  text-decoration: underline
+}
+
+h3 a:hover {
+  color: #fc3;
+  background-color: #66f;
+  text-decoration: none;
+}
+
+/* ～～ 見出し、ここまで ～～ */
+
+p#catch {
+  /* 労調協は～ */
+  text-indent: 0;
+  margin: 4% 6% 4%;
+  margin-bottom: 1.5em;
+  /* 110401　地震 */
+  font: 1.3em/1.3em sans-serif;
+  color: #030;
+  text-align: center;
+  border-bottom: 3px #36f groove;
+}
+
+p#eq {
+  text-indent: 0;
+  border: double 4px #360;
+  width: 38.5em;
+  margin: 0 auto 2em;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+#index {
+  /* Contents */
+  margin: 0 5% 0 0;
+  padding: 0 0 1em 0;
+  width: 44%;
+  border: outset thin #fefef9;
+  background-color: #f6f6f6;
+  float: left;
+}
+
+#article {
+  /* News */
+  width: 48%;
+  float: left;
+}
+
+div#article h2 {
+  margin-bottom: 0.8em;
+}
+
+/*div#article ul{
+  height: 22em;
+  overflow: auto;
+  background-color: white;
+  border: solid 1px black;
+  margin: 0;
+  padding: 0 1em 0 1.5em;
+}*/
+ul {
+  /* リスト */
+  font: 1em sans-serif;
+  list-style: disc;
+  /* 黒丸 */
+  text-indent: 0;
+}
+
+ul a:link {
+  text-decoration: underline
+}
+
+ul a:visited {
+  text-decoration: underline
+}
+
+ul a:hover {
+  color: white;
+  background-color: #66f;
+  text-decoration: none;
+}
+
+/**************** 雑誌写真 ****************/
+ul li p.magazine {
+  float: right;
+  margin-top: 0;
+}
+
+ul li p.magazine a:link {
+  text-decoration: none
+}
+
+ul li p.magazine a:visited {
+  text-decoration: none
+}
+
+ul li p.magazine a:hover {
+  text-decoration: none;
+  background-color: #f0f8ff;
+  /*  border: 2px outset #000; */
+}
+
+ul li p.magazine a:hover img {
+  /*  width: 102px;
+  height: 143px; */
+  border: 2px solid #fc3;
+}
+
+/**************** 雑誌写真 ****************/
+p.news {
+  text-indent: 0;
+  font-size: 90%;
+}
+
+p.news_top {
+  font-size: 1em;
+}
+
+li.prominence {
+  padding: 0.5em;
+  font-size: 105%;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-left: -1em;
+  color: #f0f8ff;
+  background-color: #f60;
+  border: 0.2em dashed #360;
+  /*  color: #360;
+  background-color: #f0f8ff;
+  border: 0.2em dashed #f60;
+  color: #000;*/
+}
+
+li.prominence span#con {
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+ul#book {
+  margin: 0.3em 0 0 1em;
+  padding: 0;
+  list-style-type: circle;
+}
+
+ul#book li {
+  margin: 0;
+  padding: 0;
+  font-size: 90%;
+}
+
+span.booktitle {
+  font-style: italic;
+}
+
+p#bookimg img {
+  margin: 0 1em 0;
+  border: 0;
+}
+
+p#bookimg a:link {
+  text-decoration: none
+}
+
+p#bookimg a:visited {
+  text-decoration: none
+}
+
+p#bookimg a:hover {
+  color: inherit;
+  background-color: transparent;
+}
+
+p.modify {
+  font-size: 80%;
+  line-height: 1.2em;
+  margin: 0 0 1.5em;
+  text-indent: 0;
+}
+
+/* -----------------------------------------------
+ * フッタ部
+ * ----------------------------------------------- */
+div#footbar {
+  clear: both;
+  background-color: #669;
+  padding: 6px 2% 6px 7%;
+}
+
+form {
+  float: left;
+  margin: 0;
+}
+
+table tr {
+  font-size: 12px;
+  color: white;
+  /*  vertical-align: middle;*/
+}
+
+div#counter {
+  /*  background-color:#f0f8ff;
+  width: 78px;
+  height: 28px;
+  float: right;*/
+  text-align: right;
+  padding-right: 6px;
+}
+
+div#counter img {
+  width: 75px;
+  height: 20px;
+  /*  text-align: center;
+  vertical-align: -10px;*/
+}
+
+div.date {
+  /* 更新年月日表示 */
+  text-align: right;
+  font-style: italic;
+  color: white;
+  padding-right: 1em;
+  font-size: 13px;
+}
+
+div.footer {
+  clear: both;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  padding: 10px 0;
+}

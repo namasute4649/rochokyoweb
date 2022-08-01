@@ -1,0 +1,154 @@
+/* ---------------------------------------------------------------
+ * Common Style Sheet for Rouchokyo Web
+ * Written by YUASA Ron
+ * Last modified 2004-04-27
+ * original http://www.rochokyo.gr.jp/css/common.css
+ * --------------------------------------------------------------*/
+
+body{
+  margin: 0;
+  background-color:#669;
+}
+
+/* -----------------------------------------------
+ * ヘッダ部分
+ * ----------------------------------------------- */
+
+/* --- ヘッダ部のナビゲーション --- */
+
+div.navi{
+  font : 11px sans-serif;
+  color: #669;
+  background-color: #f0f8ff;
+  padding : 8px 0 0;
+}
+#nav{
+  border-bottom: 15px #669 solid;
+  padding: 0 8px 0px;
+}
+
+/* --- リンク --- */
+div.navi a:link{
+  color: #669; 
+  text-decoration: none;
+}
+div.navi a:visited{
+  color: #669; 
+  text-decoration: none;
+}
+div.navi a:hover{
+  color: #f40; 
+  background-color: #ff9;
+  position: relative; top: 1px; left: 2px;
+}
+/* ～～ リンク、ここまで ～～ */
+
+div.navi span.current{	/* 現在ページ */
+  font : bold 12px sans-serif;
+  background-color:#669;
+  color : white;
+  border-top: 8px #669 solid;
+/*  border-bottom: 10px #669 solid;*/
+  padding: 0 5px;
+}
+/* ～～ ナビゲーション、ここまで ～～ */
+
+#location{	/* 現在位置表示 */
+  font-size : 11px;
+  position: absolute; left: 8px;
+}
+
+/* -----------------------------------------------
+ * コンテンツ
+ * ----------------------------------------------- */
+
+div.contents{	/* コンテンツ領域 */
+  background-color:#f0f8ff;
+  padding: 18px 7% 7%; 
+  clear: both;
+}
+
+/* --- 見出し --- */
+h2,h3{
+  font:  1em/1em sans-serif;
+}
+h1{
+  font: italic bold 1.8em sans-serif;
+  color: #030;
+  margin: 1.5em 0 0 0;
+  padding: 0 0 0 0.5em;
+  border-left: 1em #fc3 solid;
+  border-bottom: 2px #fc3 solid;
+}
+h2{
+  font:  italic 1.2em/2em sans-serif;
+  padding: 0 1em;
+  color: ;
+  border-left: 2em #fc3 solid;
+  border-bottom: 2px #fc3 solid;
+}
+h3{
+  margin-left: 1.3em;
+  padding: 0 0.5em 0 0.5em;
+  border-left: 1em #030 solid;
+}
+h3 a:link{
+  text-decoration: underline;
+}
+h3 a:link{
+  text-decoration: underline;
+}
+h3 a:hover{
+  color: #fc3; 
+/*  background-color: #99f; */
+  background-color: #66f;
+  text-decoration: none;
+/*  position: relative; top: 3px; left: 3px;*/
+}
+/* ～～ 見出し、ここまで ～～ */
+
+p{
+  text-indent: 1em;
+  line-height: 1.5em;
+}
+ul{	/* リスト */
+  font: 1em/1.3em sans-serif;
+  list-style: url("./images/bullet1.gif");
+}
+ul.nomark{	/* マークなしのリスト */
+  font: 1em/1.3em monospace;
+  list-style: none;
+  text-indent: -1em;
+/*  position: relative; left: -3%;*/
+}
+/* -----------------------------------------------
+ * フッタ部
+ * ----------------------------------------------- */
+
+div.footer{
+  font-size : 11px;
+  color : white;
+  padding: 10px 8px;
+  clear: both;
+}
+
+/* --- リンク --- */
+div.footer a:link{
+  color: white; 
+}
+div.footer a:visited{
+  color: purple; 
+}
+div.footer a:hover{
+  color: #f40; 
+  background-color: #ff9;
+  position: relative; top: 1px; left: 2px;
+}
+/* ～～ リンク、ここまで ～～ */
+
+div.footer span.current{	/* 現在ページ */
+  font : bold 12px sans-serif;
+  background-color: white;
+  color : #669;
+  padding: 0 5px;
+}

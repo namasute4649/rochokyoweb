@@ -1,0 +1,142 @@
+* {
+  margin:0;
+  padding:0;
+}
+* {
+  margin:0;
+  padding:0;
+}
+div#main{
+  width: 95%;
+  border: #669 solid 3px;
+  padding: 1% 3% 2%;
+  margin-top: 1em;
+}
+p{
+  line-height: 1.3em;
+  margin: 0.4em 0;
+  text-indent:1em;
+}
+p.ong{
+  text-indent:0;
+}
+p#header{
+	text-align:right;
+	margin-bottom:1em;
+}
+p#pdf{
+  text-indent:0;
+  text-align:right;
+  font-size: 75%;
+}
+ol li p{
+	text-indent:1em;
+}
+p#pdf a[title]:after{                  /* Web公開PDFファイル */
+  padding-left: 0.2em;
+  font-size: 80%;
+  content: url(../images/pdf.gif) " [" attr(title) "]";
+  color: black;
+/*  vertical-align: middle;*/
+  text-decoration: none !important;            /* 無効 */
+}
+h1{
+  font-size: 140%;
+  font-style : normal;
+  font-weight: normal;
+  color: #050;
+  width: 21em;
+  margin: 1em auto;
+  margin-bottom:0;
+  border: 0.1em solid #050;
+  text-align: center;
+}
+h2{
+  margin: 1em 0 0;
+  padding:0;
+  font-size : 120%;
+  border: none;
+/*  color: purple; */
+  text-indent:0;
+}
+h3{
+  margin: 0.8em 0 0.2em;
+  padding: 0;
+  font-size: 110%;
+  color: black;
+  border: none;
+}
+h4{
+  margin: 0.5em 0 0;
+  font-weight: normal;
+  font-size: 105%;
+  color: black;
+}
+h5{
+  
+  margin-left : 1em;
+  font-size : 96%;
+}
+ol{	/* 番号ありリスト */
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 1em;
+  list-style-type: lower-roman;
+}
+ol.h2{
+  list-style-type: upper-roman;
+}
+ol.h3{
+  list-style-type: decimal;
+  padding-left: 0.5em;
+}
+ol.h4{
+  list-style-type: lower-roman;
+  padding-left: 0.5em;
+}
+ol li{
+  margin-top: 0.4em;
+  color: black;
+}
+ol.h2 li{
+  margin-top: 0.4em;
+  color: #050;
+}
+ol.h3 li{
+  color: black;
+}
+ol#agenda li h3{
+  font-size: 95%;
+  color: black;
+  line-height: 1.3em;
+}
+ol.h4 li{
+  color: black;
+}
+table{
+  color: black;
+}
+td{
+  padding: 0.2em 0.5em;
+}
+table#research{
+  margin: 0.8em 0;
+  border: 1px solid #050;
+  font-size: 90%;
+}
+table#research td{
+  border: 1px solid #050;
+}
+colgroup.rchsort{
+  width: 11em;
+}
+em{
+	font-style:normal;
+	text-decoration:underline;
+}
+table#seminor td.cs{
+	padding-right:0;
+}
+table#seminor td.ttl{
+	padding-left:0;
+}

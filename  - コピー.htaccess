@@ -1,0 +1,11 @@
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS 
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://www.rochokyo.gr.jp/$1 [R=301,L]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#RewriteCond %{HTTP_HOST} ^rochokyo.gr.jp$
+#RewriteRule ^(.*)$ https://www.rochokyo.gr.jp/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.rochokyo.gr.jp$
+RewriteRule ^(.*)$ https://rochokyo.gr.jp/$1 [R=301,L]
+Action application/x-httpd-php /global-bin/php-5.6.cgi

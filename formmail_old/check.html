@@ -1,0 +1,106 @@
+<!--このファイルは、フォームメ－ルの確認画面用HTMLファイルのサンプルです。
+ 
+      *バージョン情報：「確認画面」Ver.1 (2001年12月3日)
+-->
+
+<!--記述にあたり文字コードはシフトＪＩＳでお願いします。-->
+
+<HTML>
+  <HEAD>
+    <TITLE>入力内容の確認</TITLE>
+  
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.localhost"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.rochokyo.gr.jp/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.rochokyo.gr.jp/piwik/piwik.php?idsite=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.localhost"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.rochokyo.gr.jp/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.rochokyo.gr.jp/piwik/piwik.php?idsite=1" style="border:0;" alt=""></p></noscript>
+<!-- End Piwik Code -->
+
+</head>
+
+    <BODY>
+
+    <FONT COLOR="#FF0000"><B>入力内容の確認</B></FONT>
+    <BR>
+    <FONT SIZE="-1">
+      入力内容をご確認の上、よろしければ「送信」ボタンを押してください。
+
+      <BR>
+      入力をやり直す場合は、ブラウザの[戻る]ボタンを押して入力画面に戻り、再度入力してください。
+    </FONT>
+    <HR><BR>
+
+<!--ここから以下「ここまで」の部分の記述は必須です。この通り記述して下さい。-->
+
+    <UL>
+      <TABLE WIDTH="80%">
+        <TR><TD WIDTH="20%"><B>項目名</B></TD><TD><B>入力内容</B></TD></TR> 
+        <!-- LoopFormat Start -->
+        <TR><TD>%s</TD><TD>%s</TD></TR> 
+        <!-- LoopFormat End -->
+      </TABLE>
+    </UL>
+
+    <FORM ACTION="/cgi-tool/formmail.cgi" METHOD="POST">
+      <INPUT TYPE="submit" VALUE="送信">
+      <INPUT TYPE="hidden" NAME="FORMMAIL_MODE" VALUE="CONFORM_OK">
+      <!-- LoopFormat Start -->
+      <INPUT TYPE="hidden" NAME="%s" VALUE="%s">
+      <!-- LoopFormat End -->
+    </FORM>
+
+<!--------------------------------「ここまで」-------------------------------->
+
+  <!-- ↓Google Analytics↓ -->
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+<!--
+_uacct = "UA-2091644-1";
+urchinTracker();
+// -->
+</script>
+<!-- ↑Google Analytics↑ -->
+<!-- ↓Global site tag (gtag.js) - Google Analytics↓ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9D6HV7G0M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M9D6HV7G0M');
+</script>
+<!-- ↑Global site tag (gtag.js) - Google Analytics↑ -->
+</body>
+
+</HTML>

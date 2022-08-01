@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule jichiro$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=01 [R=301,L]
+RewriteRule zensuido$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=03 [R=301,L]
+RewriteRule jtu$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=04 [R=301,L]
+RewriteRule nikkokyo$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=05 [R=301,L]
+RewriteRule kokuzei-rouso$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=07 [R=301,L]
+RewriteRule zeikan-roso$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=08 [R=301,L]
+RewriteRule lafgo$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=11 [R=301,L]
+RewriteRule gflu$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=12 [R=301,L]
+RewriteRule zenzaimu$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=16 [R=301,L]
+RewriteRule plu$ https://labour-research.org/limesurvey2/index.php/893764?lang=ja&newtest=Y&A=20 [R=301,L]

@@ -1,0 +1,4 @@
+$MAIL_TO = 'ide@rochokyo.gr.jp,yuasa@rochokyo.gr.jp';
+$MAIL_SUBJECT = '第７回労働調査セミナー参加申し込み';
+$FORMERR_PAGE = '/formmail/error.html';
+$THANKS_PAGE = '/formmail/thanks.html';
